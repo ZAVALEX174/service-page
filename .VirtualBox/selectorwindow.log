@@ -1,0 +1,26 @@
+00:00:00.680578 VirtualBox GUI VM Selector Window 7.1.8 r168469 win.amd64 (Apr 11 2025 16:45:31) release log
+00:00:00.680581 Log opened 2025-05-05T06:59:12.367652300Z
+00:00:00.680581 Build Type: release
+00:00:00.680586 OS Product: Windows 10
+00:00:00.680587 OS Release: 10.0.19045
+00:00:00.680588 OS Service Pack: 
+00:00:00.705248 DMI Product Name: MaiBook M
+00:00:00.714034 DMI Product Version: 1
+00:00:00.714063 Firmware type: UEFI
+00:00:00.715140 Secure Boot: Disabled
+00:00:00.715160 Host RAM: 15741MB (15.3GB) total, 12815MB (12.5GB) available
+00:00:00.715169 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.715170 Process ID: 11200
+00:00:00.715171 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.715173 Windows Features:
+00:00:00.715173   Core Isolation (Memory Integrity): Not supported
+00:00:00.715567 Qt version: 6.5.3
+00:00:00.717025 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.750011 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.901830 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:30.929091 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:34.699798 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:51.462073 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:18:58.765349 GUI: UICommon: Commit data request...
+00:18:58.847300 GUI: UICommon: Handling aboutToQuit request..
+00:18:59.705463 GUI: UICommon: aboutToQuit request handled!

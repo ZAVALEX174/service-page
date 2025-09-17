@@ -1,0 +1,196 @@
+{
+	"name": "vscode-css-navigation",
+	"displayName": "CSS Navigation",
+	"description": "Provides CSS Completion, Finding Definition, Finding References, Hover, Workspace Symbols services for HTML, JS, TS, JSX, Vue and more languages across whole workspace",
+	"icon": "images/logo.png",
+	"version": "2.3.9",
+	"license": "MIT",
+	"publisher": "pucelle",
+	"homepage": "https://github.com/pucelle/vscode-css-navigation",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pucelle/vscode-css-navigation.git"
+	},
+	"bugs": {
+		"url": "https://github.com/pucelle/vscode-css-navigation/issues"
+	},
+	"engines": {
+		"vscode": "^1.51.1"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"keywords": [
+		"CSS",
+		"CSS Goto Definition",
+		"CSS Peek Definition",
+		"CSS Completion",
+		"CSS Workspace Symbol",
+		"CSS Find References",
+		"CSS Hover",
+		"CSS Variable",
+		"Sass, Less"
+	],
+	"activationEvents": [
+		"onLanguage"
+	],
+	"main": "./client/out/extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "CSS Navigation",
+			"properties": {
+				"CSSNavigation.enableGoToDefinition": {
+					"type": "boolean",
+					"default": true,
+					"description": "Whether to enable `go to definition` by clicking `F12` in HTML files."
+				},
+				"CSSNavigation.enableWorkspaceSymbols": {
+					"type": "boolean",
+					"default": true,
+					"description": "Whether to enable searching class and id name across workspace by clicking `Ctrl + T`."
+				},
+				"CSSNavigation.enableIdAndClassNameCompletion": {
+					"type": "boolean",
+					"default": true,
+					"description": "Whether to enable auto complete for id and class name in HTML files."
+				},
+				"CSSNavigation.enableFindAllReferences": {
+					"type": "boolean",
+					"default": true,
+					"description": "Whether to enable searching CSS selector references in HTML files."
+				},
+				"CSSNavigation.enableHover": {
+					"type": "boolean",
+					"default": true,
+					"description": "Whether to enable CSS selector hover comment message in HTML files."
+				},
+				"CSSNavigation.enableCSSVariableColor": {
+					"type": "boolean",
+					"default": true,
+					"description": "Whether to enable CSS variable color preview. if enabled, will show a color preview box besides color type css variables."
+				},
+				"CSSNavigation.disableOwnCSSVariableCompletion": {
+					"type": "boolean",
+					"default": false,
+					"description": "Whether to disable css variable completion within a single css document, to make it not repeat with vscode itself generated completions. Note set it to `true` will also disable css variable completion within functions like `color-mix()`, and css variable value preview in completion list. default value is `false`."
+				},
+				"CSSNavigation.maxHoverStylePropertyCount": {
+					"type": "number",
+					"default": 4,
+					"description": "When mouse hover at a class or id attribute, how many style properties at most should show."
+				},
+				"CSSNavigation.activeHTMLFileExtensions": {
+					"type": "array",
+					"default": [
+						"html",
+						"ejs",
+						"erb",
+						"php",
+						"hbs",
+						"js",
+						"ts",
+						"jsx",
+						"tsx",
+						"vue",
+						"twig",
+						"astro",
+						"svelte"
+					],
+					"items": {
+						"type": "string"
+					},
+					"description": "The extensions of the HTML files, in where you can `go to definition`."
+				},
+				"CSSNavigation.activeCSSFileExtensions": {
+					"type": "array",
+					"default": [
+						"css",
+						"scss",
+						"sass",
+						"less"
+					],
+					"items": {
+						"type": "string"
+					},
+					"description": "The extensions of the CSS files, where you can `go to` and `peek`."
+				},
+				"CSSNavigation.excludeGlobPatterns": {
+					"type": "array",
+					"default": [
+						"**/node_modules/**",
+						"**/bower_components/**",
+						"**/vendor/**",
+						"**/coverage/**"
+					],
+					"items": {
+						"type": "string"
+					},
+					"description": "A glob pattern, which always use `/` as a path separator, defines paths to exclude when searching for CSS definitions or references."
+				},
+				"CSSNavigation.alwaysIncludeGlobPatterns": {
+					"type": "array",
+					"default": [],
+					"items": {
+						"type": "string"
+					},
+					"description": "A glob pattern, which always use `/` as a path separator, files match will always be included even they match `excludeGlobPatterns` or listed in `.gitignore` or `.npmignore`, or out of workspace directory. Strongly suggest you specifies the full start path, or relative path of current workspace, but should not specifies as start with `**/`. Otherwise, if you don't want specifying this, just open the files you want to import in vscode works too."
+				},
+				"CSSNavigation.searchAcrossWorkspaceFolders": {
+					"type": "boolean",
+					"default": false,
+					"description": "When `false` by default, only search CSS definition in current workspace folder. If your workspace folder requires css references from another workspace folder in current workspace, you should set this to `true`."
+				},
+				"CSSNavigation.ignoreCustomAndComponentTagDefinition": {
+					"type": "boolean",
+					"default": true,
+					"description": "When `true` by default, Custom-Element or Component tag (like React Component) definition going from HTML to CSS will be ignored, such that it goes to it's custom-element or component definition place directly which has implemented by other plugins."
+				},
+				"CSSNavigation.ignoreFilesBy": {
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							".gitignore",
+							".npmignore"
+						]
+					},
+					"default": [
+						".gitignore"
+					],
+					"description": "Specifies it to ignore files and directories list in `.gitignore` or `.npmignore` when looking for html or css files."
+				},
+				"CSSNavigation.enableLogLevelMessage": {
+					"type": "boolean",
+					"default": false,
+					"description": "Whether enables log level message, set it to `true` for debugging."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run build",
+		"build": "tsc -b",
+		"watch": "tsc -b -w",
+		"postinstall": "cd client && npm install && cd ../server && npm install && cd ..",
+		"test": "sh ./client/test/scripts/e2e.sh"
+	},
+	"devDependencies": {
+		"@types/fs-extra": "^9.0.1",
+		"@types/glob": "^7.1.3",
+		"@types/minimatch": "^3.0.3",
+		"@types/mocha": "^5.2.5",
+		"@types/node": "^22.7.4",
+		"vscode": "^1.1.37"
+	},
+	"dependencies": {
+		"fs-extra": "^9.0.1",
+		"glob": "^7.1.6",
+		"minimatch": "^3.0.5"
+	},
+	"__metadata": {
+		"installedTimestamp": 1743961874647,
+		"targetPlatform": "undefined",
+		"size": 1411927
+	}
+}

@@ -1,0 +1,176 @@
+00:00:00.006645 main     VirtualBox COM Server 7.1.8 r168469 win.amd64 (Apr 11 2025 16:45:31) release log
+00:00:00.006647 main     Log opened 2025-04-30T07:46:23.257470100Z
+00:00:00.006648 main     Build Type: release
+00:00:00.006654 main     OS Product: Windows 10
+00:00:00.006655 main     OS Release: 10.0.19045
+00:00:00.006656 main     OS Service Pack: 
+00:00:00.099432 main     DMI Product Name: MaiBook M
+00:00:00.161163 main     DMI Product Version: 1
+00:00:00.161178 main     Firmware type: UEFI
+00:00:00.161822 main     Secure Boot: Disabled
+00:00:00.161837 main     Host RAM: 15741MB (15.3GB) total, 11579MB (11.3GB) available
+00:00:00.161842 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.161843 main     Process ID: 6836
+00:00:00.161844 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.161846 main     Windows Features:
+00:00:00.161847 main       Core Isolation (Memory Integrity): Not supported
+00:00:00.454123          VirtualBox: object creation starts
+00:00:00.454399          Home directory: 'C:\Users\Masyanya\.VirtualBox'
+00:00:00.454553          Installed Drivers:
+00:00:00.460050            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.1.8.18469)
+00:00:00.462035            C:\Windows\System32\drivers\VBoxUSBMon.sys (Version: 7.1.8.18469)
+00:00:00.463541            C:\Windows\System32\drivers\VBoxSup.sys (Version: 7.1.8.18469)
+00:00:00.465404            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.1.8.18469)
+00:00:00.475057          Loading settings file "C:\Users\Masyanya\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.477105          usbLibGetDevices: Starting USB device enumeration
+00:00:00.477319          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&2f8a4307&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:00:00.498317          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_214B&PID_7250#6&5354a81&0&1#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:00:00.498468          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.503361          usbLibGetDevices: Found 6 USB devices, 0 captured
+00:00:00.503410          USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0x50c0)
+00:00:00.504189          USB: Unknown USB device detected (idVendor: 0x1908, idProduct: 0x0226)
+00:00:00.504291          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0aa7)
+00:00:00.568482          HostDnsMonitor: initializing
+00:00:00.621532          HostDnsMonitor: updating information
+00:00:00.621569          HostDnsMonitor: old information
+00:00:00.621570            no server entries
+00:00:00.621571            no domain set
+00:00:00.621571            no search string entries
+00:00:00.621572          HostDnsMonitor: new information
+00:00:00.621572            server 1: 192.168.3.1
+00:00:00.621573            no domain set
+00:00:00.621574            no search string entries
+00:00:00.627907          VD: VDInit finished with VINF_SUCCESS
+00:00:00.630069          Platform architecture set to 'x86'
+00:00:00.638339          Loading settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox" with version "1.19-windows"
+00:00:00.638815          Platform architecture set to 'x86'
+00:00:00.640384          VirtualBox: object created
+00:00:00.966081          Saving settings file "C:\Users\Masyanya\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.968999          Finished saving settings file "C:\Users\Masyanya\.VirtualBox\VirtualBox.xml"
+00:00:00.969313          Saving settings file "C:\Users\Masyanya\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.971769          Finished saving settings file "C:\Users\Masyanya\.VirtualBox\VirtualBox.xml"
+00:00:00.972116          Saving settings file "C:\Users\Masyanya\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.974658          Finished saving settings file "C:\Users\Masyanya\.VirtualBox\VirtualBox.xml"
+00:00:02.611817          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:07.347012          Launched VM: 752028992 pid: 10392 (0x2898) frontend: GUI/Qt name: VMBitrix9.0-6-CentOSStream9-VirtualBox
+00:00:07.419743          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:13.760854          Platform architecture set to 'x86'
+00:00:14.244192          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:15.085665          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:15.175820          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:16.530444          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:16.540397          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:16.543407          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:16.721454          Saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox" with version "1.19-windows"
+00:00:16.724995          Finished saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox"
+00:00:16.752317          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:17.235309          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:17.235967          HostDnsMonitorProxy::GetDomainName: no domain set
+00:00:17.236363          HostDnsMonitorProxy::GetNameServers:
+00:00:17.236387            name server 1: 192.168.3.1
+00:00:17.236487          HostDnsMonitorProxy::GetSearchStrings:
+00:00:17.236492            no search string entries
+00:00:17.278815          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:17.354446          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:18.762279          Saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox" with version "1.19-windows"
+00:00:18.765607          Finished saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox"
+00:00:18.794715          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:34.294770          Saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox" with version "1.19-windows"
+00:00:34.298559          Finished saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox"
+00:00:34.320253          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:26.572618 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:01:26.572907 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&2f8a4307&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:01:26.594567 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_214B&PID_7250#6&5354a81&0&1#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:01:26.597979 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:01:26.598271 USBPROXY usbLibGetDevices: Found 6 USB devices, 0 captured
+00:03:05.346546 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:03:05.367867 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_214B&PID_7250#6&5354a81&0&1#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:03:05.368106 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:03:05.368220 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:03:05.368486 USBPROXY usbLibGetDevices: Found 6 USB devices, 0 captured
+00:03:05.368547 USBPROXY USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0x50c0)
+00:03:08.093886 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:03:08.112842 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_214B&PID_7250#6&5354a81&0&1#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:03:08.113061 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:03:08.113170 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:03:08.113514 USBPROXY usbLibGetDevices: Found 6 USB devices, 0 captured
+00:03:27.451022          Saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox" with version "1.19-windows"
+00:03:27.473569          Finished saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox"
+00:03:27.498459          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:03:44.794716          Saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox" with version "1.19-windows"
+00:03:44.798292          Finished saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox"
+00:03:44.816565          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:04:13.442029 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:04:13.442374 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&2f8a4307&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:04:13.460938 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_214B&PID_7250#6&5354a81&0&1#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:04:13.461165 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:04:13.461274 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:04:13.461542 USBPROXY usbLibGetDevices: Found 6 USB devices, 0 captured
+00:04:48.676029 dns-monitor HostDnsMonitor: updating information
+00:04:48.676102 dns-monitor HostDnsMonitor: unchanged
+00:05:03.042571 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:05:03.042822 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&2f8a4307&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:05:03.053786 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_214B&PID_7250#6&5354a81&0&1#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:05:03.053884 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:05:03.053924 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:05:03.054047 USBPROXY usbLibGetDevices: Found 6 USB devices, 0 captured
+00:05:04.605212          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:05:04.625621          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+00:05:07.125996 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:05:07.126357 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&2f8a4307&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:05:07.146794 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_214B&PID_7250#6&5354a81&0&1#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:05:07.147081 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:05:07.147194 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:05:07.147462 USBPROXY usbLibGetDevices: Found 6 USB devices, 0 captured
+00:05:08.451267          Saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox" with version "1.19-windows"
+00:05:08.473822          Finished saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox"
+00:05:08.530570          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:05:08.614195          Saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox" with version "1.19-windows"
+00:05:08.618043          Finished saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox"
+00:05:08.621248          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:05:08.649933          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:05:08.657308          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:05:08.756397          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:05:09.784117          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:05:12.133592 dns-monitor HostDnsMonitor: updating information
+00:05:12.133663 dns-monitor HostDnsMonitor: unchanged
+00:05:12.596256          Launched VM: 752189568 pid: 6524 (0x197c) frontend: GUI/Qt name: VMBitrix9.0-6-CentOSStream9-VirtualBox
+00:05:12.696458          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:05:18.547790          Platform architecture set to 'x86'
+00:05:18.688165          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:05:19.468977          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:05:19.536704          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:05:21.414930          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:05:21.419624          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:05:22.195399          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:05:22.196193          HostDnsMonitorProxy::GetDomainName: no domain set
+00:05:22.196287          HostDnsMonitorProxy::GetNameServers:
+00:05:22.196301            name server 1: 192.168.3.1
+00:05:22.196386          HostDnsMonitorProxy::GetSearchStrings:
+00:05:22.196399            no search string entries
+00:05:22.244150          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:05:22.299410          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:05:24.356009          Saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox" with version "1.19-windows"
+00:05:24.376994          Finished saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox"
+00:05:24.394171          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:05:40.215280          Saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox" with version "1.19-windows"
+00:05:40.218229          Finished saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox"
+00:05:40.237068          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:06:56.539740 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:06:56.540186 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&2f8a4307&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:06:56.558864 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_214B&PID_7250#6&5354a81&0&1#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:06:56.558990 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:06:56.559035 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&c88a0aa&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:06:56.559181 USBPROXY usbLibGetDevices: Found 6 USB devices, 0 captured
+00:06:56.839071          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:59.094726          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:59.193974          Saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox" with version "1.19-windows"
+00:06:59.202289          Finished saving settings file "C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox.vbox"
+00:06:59.229852          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:59.255600          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:07:05.759387 main     VirtualBox: object deletion starts
+00:07:05.773161 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\Masyanya\VirtualBox VMs\VMBitrix9.0-6-CentOSStream9-VirtualBox\VMBitrix9.0-6-CentOSStream9-VirtualBox-disk001.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:07:05.780583 main     HostDnsMonitor: shutting down ...
+00:07:05.780658 main     HostDnsMonitor: shut down
+00:07:05.783360 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:07:05.783737 main     VirtualBox: object deleted

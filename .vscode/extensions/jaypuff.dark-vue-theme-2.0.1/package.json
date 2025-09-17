@@ -1,0 +1,32 @@
+{
+	"name": "dark-vue-theme",
+	"displayName": "Dark Vue Theme",
+	"publisher": "jaypuff",
+	"description": "Modified Dark Mode Warm theme. Developed for Web/Vue Dev!",
+	"version": "2.0.1",
+	"engines": {
+		"vscode": "^1.36.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jaypuff/warm-despair.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark Vue Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dark Vue Theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1747751815909,
+		"targetPlatform": "undefined",
+		"size": 148434
+	}
+}
